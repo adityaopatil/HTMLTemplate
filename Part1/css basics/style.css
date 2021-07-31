@@ -1,0 +1,29 @@
+body {
+  margin: 10px;
+}
+#products > p {
+  color: orange;
+}
+
+#D {
+  color: black;
+}
+
+ul li:nth-child(even) {
+  color: deeppink;
+}
+
+a:visited,
+a:link {
+  color: green;
+  color: dodgerblue;
+}
+
+a:hover,
+a:focus {
+  color: deeppink;
+}
+
+p::selection {
+  background-color: pink;
+}

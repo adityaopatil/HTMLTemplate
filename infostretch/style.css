@@ -1,0 +1,28 @@
+h1 {
+  margin: 0;
+  padding: 1rem;
+  border: 5px dashed;
+  outline: solid lightblue;
+  background-color: lightgrey;
+}
+
+.one,
+.two,
+.three,
+.four {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: -2px;
+  text-align: center;
+}
+
+.one,
+.four {
+  background-color: red;
+}
+
+.two,
+.three {
+  background-color: blue;
+}

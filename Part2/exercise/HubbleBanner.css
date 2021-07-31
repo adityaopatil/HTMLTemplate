@@ -1,0 +1,56 @@
+p {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 300;
+  padding: 1.5rem;
+  font-size: 2rem;
+  /* word-spacing: 5px; */
+  letter-spacing: 1.5px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 900;
+  font-size: 5rem;
+  text-shadow: 2px 2px #000;
+  word-spacing: 1.5rem;
+}
+
+.container {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+}
+
+@media screen and (min-width: 320px) and (max-width: 852px) {
+  body {
+    background: url(/Part2/exercise/images/background_w320.jpg);
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 853px) and (max-width: 1227px) {
+  body {
+    background: url(/Part2/exercise/images/background_w853.jpg);
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1228px) and (max-width: 1439px) {
+  body {
+    background: url(/Part2/exercise/images/background_w1228.jpg);
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    background: url(/Part2/exercise/images/background_w1440.jpg);
+    background-size: cover;
+  }
+}

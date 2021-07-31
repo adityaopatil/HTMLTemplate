@@ -1,0 +1,56 @@
+#mast {
+  width: 100%;
+  background-color: #ddd;
+  height: 75px;
+  margin-top: 20px;
+  position: fixed;
+}
+#nav {
+  float: right;
+  margin-top: 10px;
+  max-width: 1040px;
+}
+.container {
+  max-width: 1040px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+.section {
+  border: 1px solid #ddd;
+  min-height: 500px;
+}
+#nav ul {
+  list-style: none;
+  margin: 0 auto;
+  display: block;
+}
+
+#nav li {
+  float: left;
+  padding: 0 10px;
+  border: 1px solid black;
+  margin: 1px;
+  background-color: black;
+}
+
+#nav li a {
+  text-decoration: none;
+  font-size: 1 em;
+  color: white;
+}
+
+#nav li a:hover {
+  color: tomato;
+}
+
+#section1 {
+  background-color: azure;
+}
+
+.wrap {
+  background-color: rgba(200red, 200, 200, 0.5);
+  background-color: #ddd;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 40px auto;
+}

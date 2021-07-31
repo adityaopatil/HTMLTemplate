@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  background-color: gold;
+  padding: 1rem;
+  color: rgb(180, 45, 68);
+}
+
+#box2 {
+  column-count: 2;
+  column-gap: 2rem;
+  column-rule: 3px dotted #999;
+}
+.container :nth-of-type(2) {
+  background-color: dodgerblue;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  #box2 {
+    background-color: white;
+  }
+}
+@media screen and (min-width: 600px) {
+  .container {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>InfoStretch</h1>
+        <a href="#">Home</a>
+        <a href="#">Contacts</a>
+        <a href="#">Email</a>
+        <a href="#">Location</a>
+      </header>
+      <main class="main">
+        <p>
+          <strong>Lorem</strong> ipsum dolor sit amet consectetur adipisicing
+          elit. Voluptas iusto sapiente beatae? Placeat nulla perferendis ut
+          qui, reiciendis, consequatur totam delectus, ullam consectetur
+          molestias similique voluptatibus esse veritatis temporibus expedita.
+        </p>
+        <p>
+          <strong>Strong</strong>
+          <br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+          vero a expedita quibusdam voluptas eaque. Eius mollitia vel laboriosam
+          tenetur harum tempora, a, cupiditate at officiis eaque dolore?
+          Obcaecati, vel?
+        </p>
+      </main>
+      <nav class="nav">
+        <p>List</p>
+        <ul>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+        </ul>
+      </nav>
+      <footer class="footer">
+        <p id="footer-items">
+          &copy; InfoStretch <br />
+          Contacts:- 8369434093
+        </p>
+      </footer>
+    </div>
+
+    <input type="text" id="newText" onchange="upText()" />
+
+    <script>
+      let output = document.getElementById("footer-items");
+      function upText() {
+        let text = document.getElementById("newText").value;
+        output.innerText = text;
+      }
+    </script>
+  </body>
+</html>

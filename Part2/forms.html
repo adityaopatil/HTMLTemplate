@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Part2/Mosh/normalize.css" />
+    <link rel="stylesheet" href="forms.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form>
+      <!-- <div>
+        <label for="name">Name</label>
+        <input type="text" name="Name" id="name" />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="Email" id="email" />
+      </div>
+
+      <button type="submit">Register</button>
+      <button type="reset">Clear</button> -->
+
+      <!-- datalist -->
+      <input type="text" list="countries" />
+      <datalist id="countries">
+        <option>Australia</option>
+        <option>Canada</option>
+        <option>India</option>
+        <option>United States</option>
+      </datalist>
+
+      <select>
+        <optgroup label="front-end courses">
+          <option value=""></option>
+          <option value="1">HTML</option>
+          <option value="2">CSS</option>
+          <option value="3">JAVASCRIPT</option>
+        </optgroup>
+
+        <optgroup label="Back-end courses">
+          <option value="1">Node.JS</option>
+          <option value="2">ASP.NET</option>
+          <option value="3">Django</option>
+        </optgroup>
+      </select>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+th {
+  border-top: 1px solid #c4dcf3;
+  border-bottom: 1px solid #c4dcf3;
+  color: white;
+  background-color: #427fef;
+  padding: 10px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border-top: 1px solid #c4dcf3;
+  border-bottom: 1px solid #c4dcf3;
+  padding: 10px;
+}
+
+tr:nth-child(odd) {
+  background-color: #eef7ff;
+}
+
+tfoot {
+  text-align: left;
+}
+
+div {
+  width: 300px;
+  height: 300px;
+  border-radius: 5%;
+  background-color: tomato;
+  box-shadow: 10px 10px 5px lightgrey;
+}
