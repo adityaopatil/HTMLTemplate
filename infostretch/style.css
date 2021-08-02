@@ -14,15 +14,21 @@ h1 {
   height: 100px;
   display: inline-block;
   margin: -2px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .one,
 .four {
   background-color: red;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .two,
 .three {
   background-color: blue;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
