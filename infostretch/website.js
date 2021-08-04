@@ -19,3 +19,24 @@ window.onscroll=function(){
 }
 console.log(section);
 console.log("Hello world")
+
+function greeting(fname,callback){
+    return "Welcome "+callback(fname);
+}
+
+function maleInfo(fname){
+    return "Mr. "+fname;
+}
+
+function femaleInfo(fname){
+    return "Miss. "+fname;
+}
+
+document.write(greeting("aditya",maleInfo));
+document.write("<br>");
+document.write(greeting("Dipti",femaleInfo));
+
+document.write("<br>");
+document.write("1");
+setTimeout(()=>{document.write("<b> 2")},5000);
+document.write("3");

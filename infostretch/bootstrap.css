@@ -1,0 +1,24 @@
+.container {
+  border: 1px solid black;
+}
+/* 
+#two {
+  width: 100px;
+  height: 100px;
+} */
+
+.c {
+  border: 1px solid black;
+}
+
+tr td {
+  border: 1px solid;
+}
+
+th {
+  border: 3px solid;
+}
+
+tfoot {
+  text-align: center;
+}
